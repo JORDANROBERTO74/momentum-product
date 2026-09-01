@@ -1,0 +1,15 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 64 64"
+  role="img"
+  aria-labelledby="warpmetal-mono-title"
+>
+  <title id="warpmetal-mono-title">WarpMetal monochrome mark</title>
+  <path
+    fill="#141411"
+    fill-rule="evenodd"
+    d="M12 4h40l8 8v40l-8 8H12l-8-8V12l8-8Zm6 14h28v24h-6l15 15-7 7-20-20H18V18Zm7 7h14v14H25V25Z"
+    clip-rule="evenodd"
+  />
+  <path fill="#141411" d="M25 25h14v14H25z" />
+</svg>

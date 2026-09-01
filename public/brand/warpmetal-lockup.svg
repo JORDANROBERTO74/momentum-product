@@ -1,0 +1,32 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 520 112"
+  role="img"
+  aria-labelledby="warpmetal-lockup-title warpmetal-lockup-description"
+>
+  <title id="warpmetal-lockup-title">WarpMetal</title>
+  <desc id="warpmetal-lockup-description">Servers for machines</desc>
+  <g transform="translate(16 24)">
+    <path fill="#141411" d="M12 4h40l8 8v40l-8 8H12l-8-8V12l8-8Z" />
+    <path fill="#eee9dd" d="M18 18h28v24h-6l15 15-7 7-20-20H18V18Z" />
+    <path fill="#f4511e" d="M25 25h14v14H25z" />
+  </g>
+  <text
+    x="100"
+    y="67"
+    fill="#141411"
+    font-family="Arial Black, Helvetica Neue, Helvetica, Arial, sans-serif"
+    font-size="46"
+    font-weight="900"
+    letter-spacing="-2"
+  >WARPMETAL</text>
+  <text
+    x="102"
+    y="91"
+    fill="#68645c"
+    font-family="SFMono-Regular, Consolas, Liberation Mono, monospace"
+    font-size="11"
+    font-weight="700"
+    letter-spacing="2.6"
+  >SERVERS FOR MACHINES</text>
+</svg>
