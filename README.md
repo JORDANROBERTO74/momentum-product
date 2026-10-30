@@ -83,7 +83,7 @@ The project is built for Vercel with the Git integration. Every push to `main` p
 
 1. Import the repository in Vercel.
 2. Keep the detected Next.js settings (`npm install`, `npm run build`).
-3. Set `NEXT_PUBLIC_SITE_URL` to `https://momentum-product.vercel.app` if the canonical origin changes.
+3. Update the canonical origin in `src/app/layout.tsx` if the production domain changes.
 4. Deploy and verify the home route, the app icon and the local media paths.
 
 Live demo: <https://momentum-product.vercel.app>
