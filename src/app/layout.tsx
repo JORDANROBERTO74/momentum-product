@@ -15,6 +15,7 @@ export const metadata: Metadata = {
     "Momentum keeps intake, planning, review and release in one shared context for product teams and AI agents.",
   applicationName: "Momentum",
   metadataBase: new URL("https://momentum-product.vercel.app"),
+  alternates: { canonical: "/" },
   icons: {
     icon: [{ url: "/brand/momentum-mark.png", type: "image/png" }],
   },
