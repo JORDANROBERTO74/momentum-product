@@ -1,9 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import { Container, MotionSection, Section } from "@/components/linear";
-import { featureIntro } from "@/lib/linear-content";
-import { linearTypography } from "@/lib/linear-tokens";
+import { Container, MotionSection, Section } from "@/components/ui";
+import { featureIntro } from "@/lib/content";
+import { typography } from "@/lib/tokens";
 import { cn } from "@/lib/cn";
 
 export function FeatureIntro() {
@@ -11,9 +11,9 @@ export function FeatureIntro() {
     <Section>
       <Container>
         <MotionSection className="mx-auto max-w-4xl text-center">
-          <h2 className={cn(linearTypography.section, "text-balance")}>
-            <span className="text-linear-text">{featureIntro.title}</span>{" "}
-            <span className="text-linear-muted">{featureIntro.subtitle}</span>
+          <h2 className={cn(typography.section, "text-balance")}>
+            <span className="text-brand-text">{featureIntro.title}</span>{" "}
+            <span className="text-brand-muted">{featureIntro.subtitle}</span>
           </h2>
         </MotionSection>
 
@@ -30,7 +30,7 @@ export function FeatureIntro() {
                 />
               </div>
               <h3 className="mt-6 text-xl font-medium tracking-tight">{feature.title}</h3>
-              <p className="mt-3 text-sm leading-relaxed text-linear-muted">
+              <p className="mt-3 text-sm leading-relaxed text-brand-muted">
                 {feature.description}
               </p>
             </MotionSection>

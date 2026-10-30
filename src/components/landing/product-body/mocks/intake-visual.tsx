@@ -11,17 +11,17 @@ export function IntakeVisual() {
         <p>
           <UserRound size={18} /> <b>lena</b> <small>11:35 AM</small>
           <br />
-          Anyone else noticing the iOS app feels slow to open if you haven&apos;t
+          Anyone else noticing the workspace feels slow to open if you haven&apos;t
           used it in a bit?
         </p>
         <p>
           <UserRound size={18} /> <b>didier</b> <small>11:35 AM</small>
           <br />
-          Yeah, we&apos;re still blocking initial render on a full vehicle_state
-          sync every time...
+          Yeah, we&apos;re still waiting for every panel before rendering the
+          workspace every time...
         </p>
         <div className="thread-input">
-          <span>@Linear</span> create issues and assign to me{" "}
+          <span>@Momentum</span> create issues and assign to me{" "}
           <small>＋　Aa　☺　@　│　↑</small>
         </div>
       </div>

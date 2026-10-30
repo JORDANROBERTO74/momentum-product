@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        linear: {
+        brand: {
           bg: "#08090a",
           surface: "#141516",
           "surface-elevated": "#1c1c1f",

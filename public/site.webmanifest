@@ -1,7 +1,7 @@
 {
-  "name": "WarpMetal — Servers for machines",
-  "short_name": "WarpMetal",
-  "description": "Machine-native VPS compute for software agents.",
+  "name": "Momentum — Product work, without the handoffs",
+  "short_name": "Momentum",
+  "description": "Product development for teams and agents.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#eee9dd",

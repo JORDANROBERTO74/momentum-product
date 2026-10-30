@@ -1,6 +1,6 @@
-import { intakeSection } from "@/lib/linear-content";
-import { linearAssets } from "@/lib/linear-assets";
-import { LinearScreenshot } from "@/components/linear";
+import { intakeSection } from "@/lib/content";
+import { assets } from "@/lib/assets";
+import { ProductScreenshot } from "@/components/ui";
 import { FeatureSectionLayout } from "./feature-section-layout";
 
 export function IntakeSection() {
@@ -12,8 +12,8 @@ export function IntakeSection() {
       features={intakeSection.features}
       layout="split"
     >
-      <LinearScreenshot
-        src={linearAssets.intake}
+      <ProductScreenshot
+        src={assets.intake}
         alt="Intake and integrations"
         aspectRatio="5/4"
         unstyled

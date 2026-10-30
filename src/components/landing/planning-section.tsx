@@ -1,6 +1,6 @@
-import { planningSection } from "@/lib/linear-content";
-import { linearAssets } from "@/lib/linear-assets";
-import { LinearScreenshot } from "@/components/linear";
+import { planningSection } from "@/lib/content";
+import { assets } from "@/lib/assets";
+import { ProductScreenshot } from "@/components/ui";
 import { FeatureSectionLayout } from "./feature-section-layout";
 
 export function PlanningSection() {
@@ -13,8 +13,8 @@ export function PlanningSection() {
       layout="split"
       reverse
     >
-      <LinearScreenshot
-        src={linearAssets.planning}
+      <ProductScreenshot
+        src={assets.planning}
         alt="Planning and monitoring"
         aspectRatio="5/4"
         unstyled

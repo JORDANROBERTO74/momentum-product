@@ -1,13 +1,5 @@
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 64 64"
-  role="img"
-  aria-label="WarpMetal agent compute mark"
->
-  <rect width="64" height="64" fill="#141411" />
-  <path
-    fill="#eee9dd"
-    d="M14 14h36v30h-8l16 16H48L30 44H14V14Z"
-  />
-  <path fill="#f4511e" d="M23 23h18v18H23z" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <rect width="128" height="128" rx="28" fill="#08090a"/>
+  <path d="M34 90V38l30 30 30-30v52" fill="none" stroke="#f7f8f8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="94" cy="34" r="7" fill="#5e6ad2"/>
 </svg>

@@ -1,11 +1,11 @@
 import Image from "next/image";
-import { Container, MotionSection, Section } from "@/components/linear";
-import { testimonials } from "@/lib/linear-content";
+import { Container, MotionSection, Section } from "@/components/ui";
+import { testimonials } from "@/lib/content";
 import { cn } from "@/lib/cn";
 
 const testimonialStyles = {
-  lavender: "bg-linear-lavender text-[#1a1a2e]",
-  yellow: "bg-linear-yellow-bright text-[#1a1a1a]",
+  lavender: "bg-brand-lavender text-[#1a1a2e]",
+  yellow: "bg-brand-yellow-bright text-[#1a1a1a]",
 };
 
 export function TestimonialsSection() {

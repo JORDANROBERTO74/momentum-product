@@ -1,6 +1,6 @@
-import { buildSection } from "@/lib/linear-content";
-import { linearAssets } from "@/lib/linear-assets";
-import { LinearScreenshot } from "@/components/linear";
+import { buildSection } from "@/lib/content";
+import { assets } from "@/lib/assets";
+import { ProductScreenshot } from "@/components/ui";
 import { FeatureSectionLayout } from "./feature-section-layout";
 
 export function BuildSection() {
@@ -12,8 +12,8 @@ export function BuildSection() {
       features={buildSection.features}
       layout="stacked"
     >
-      <LinearScreenshot
-        src={linearAssets.build}
+      <ProductScreenshot
+        src={assets.build}
         alt="Build, review, and ship"
         aspectRatio="5/4"
         unstyled

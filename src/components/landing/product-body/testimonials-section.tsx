@@ -1,7 +1,7 @@
-import { linearBodyContent } from "@/lib/linear-body-content";
+import { bodyContent } from "@/lib/body-content";
 
 export function TestimonialsSection() {
-  const { testimonials } = linearBodyContent;
+  const { testimonials } = bodyContent;
 
   return (
     <section className="testimonials section-wrap">
@@ -27,7 +27,7 @@ export function TestimonialsSection() {
 
       <div className="testimonial-footer">
         <p className="social-proof">
-          Linear powers over <strong>40,000</strong> product teams. From ambitious
+          Momentum powers over <strong>40,000</strong> product teams. From ambitious
           startups to major enterprises.
         </p>
         <a href="#" className="customer-stories-cta">

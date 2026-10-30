@@ -13,8 +13,8 @@ export function AiVisual() {
     <div className="ai-visual">
       <div className="agent-card partial">
         <div className="agent-card-head">
-          <span className="agent-logo linear-logo" />
-          <span className="agent-name">Linear</span>
+          <span className="agent-logo brand-logo" />
+          <span className="agent-name">Momentum</span>
           <WindowControls />
         </div>
         <div className="agent-prompt">
@@ -30,10 +30,10 @@ export function AiVisual() {
         </p>
       </div>
 
-      <div className="agent-card cursor">
+      <div className="agent-card secondary">
         <div className="agent-card-head">
-          <span className="agent-logo cursor-logo" />
-          <span className="agent-name">Cursor</span>
+          <span className="agent-logo secondary-logo" />
+          <span className="agent-name">Studio</span>
           <WindowControls />
         </div>
         <div className="agent-prompt">
@@ -45,16 +45,16 @@ export function AiVisual() {
           <b>ENG-2844 Failed image upload</b> and launched a cloud agent.
         </p>
         <div className="agent-progress">
-          <span>Setting up DRV/rideshare-app...</span>
+          <span>Setting up momentum-app...</span>
           <small>00:07</small>
         </div>
       </div>
 
-      <div className="agent-card linear">
+      <div className="agent-card primary">
         <div className="agent-card-head">
-          <span className="agent-logo linear-logo" />
-          <span className="agent-name">Linear</span>
-          <span className="agent-badge">Opus 5</span>
+          <span className="agent-logo brand-logo" />
+          <span className="agent-name">Momentum</span>
+          <span className="agent-badge">Agent 2</span>
           <WindowControls />
         </div>
         <div className="agent-prompt">
@@ -83,10 +83,10 @@ export function AiVisual() {
         </div>
       </div>
 
-      <div className="agent-card chatprd">
+      <div className="agent-card spec">
         <div className="agent-card-head">
-          <span className="agent-logo chatprd-logo" />
-          <span className="agent-name">ChatPRD</span>
+          <span className="agent-logo spec-logo" />
+          <span className="agent-name">Spec</span>
           <WindowControls />
         </div>
         <div className="agent-prompt">

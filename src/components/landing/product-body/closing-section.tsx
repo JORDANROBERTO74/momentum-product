@@ -1,11 +1,11 @@
-import { linearBodyContent } from "@/lib/linear-body-content";
+import { bodyContent } from "@/lib/body-content";
 
 interface ClosingSectionProps {
   onActionClick?: (label: string) => void;
 }
 
 export function ClosingSection({ onActionClick }: ClosingSectionProps) {
-  const { closing } = linearBodyContent;
+  const { closing } = bodyContent;
 
   return (
     <section id="pricing" className="closing section-wrap">

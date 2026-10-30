@@ -1,7 +1,7 @@
-import { linearBodyContent } from "@/lib/linear-body-content";
+import { bodyContent } from "@/lib/body-content";
 
 export function ChangelogSection() {
-  const { changelog } = linearBodyContent;
+  const { changelog } = bodyContent;
 
   return (
     <section className="changelog section-wrap">

@@ -1,6 +1,6 @@
 import type { HTMLAttributes } from "react";
 import { cn } from "@/lib/cn";
-import { linearLayout } from "@/lib/linear-tokens";
+import { layout } from "@/lib/tokens";
 
 export type SectionSpacing = "hero" | "default" | "compact" | "cta" | "logos";
 
@@ -11,11 +11,11 @@ export interface SectionProps extends HTMLAttributes<HTMLElement> {
 }
 
 const spacingClasses: Record<SectionSpacing, string> = {
-  hero: linearLayout.sectionSpacing.hero.py,
-  default: linearLayout.sectionSpacing.default.py,
-  compact: linearLayout.sectionSpacing.compact.py,
-  cta: linearLayout.sectionSpacing.cta.py,
-  logos: linearLayout.sectionSpacing.logos.py,
+  hero: layout.sectionSpacing.hero.py,
+  default: layout.sectionSpacing.default.py,
+  compact: layout.sectionSpacing.compact.py,
+  cta: layout.sectionSpacing.cta.py,
+  logos: layout.sectionSpacing.logos.py,
 };
 
 export function Section({

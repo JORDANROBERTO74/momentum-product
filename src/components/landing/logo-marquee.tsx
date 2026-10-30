@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Container, Section } from "@/components/linear";
-import { logoCloud } from "@/lib/linear-content";
+import { Container, Section } from "@/components/ui";
+import { logoCloud } from "@/lib/content";
 
 export function LogoMarquee() {
   return (

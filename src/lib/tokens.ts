@@ -1,4 +1,4 @@
-export const linearLayout = {
+export const layout = {
   pageMaxWidth: "1436px",
   pagePaddingX: "46px",
   pageContentWidth: "1344px",
@@ -12,18 +12,18 @@ export const linearLayout = {
   },
 } as const;
 
-export const linearRadii = {
+export const radii = {
   panel: "rounded-2xl",
   card: "rounded-xl",
   pill: "rounded-full",
 } as const;
 
-export const linearTestimonialColors = {
+export const testimonialColors = {
   lavender: "#c8c4f0",
   yellow: "#f5d547",
 } as const;
 
-export const linearColors = {
+export const colors = {
   bg: "#08090a",
   surface: "#141516",
   surfaceElevated: "#1c1c1f",
@@ -40,10 +40,10 @@ export const linearColors = {
   yellow: "#f2c94c",
 } as const;
 
-export const linearTypography = {
+export const typography = {
   display:
     "text-[40px] leading-[1.1] md:text-[56px] md:leading-[1.05] lg:text-[72px] lg:leading-[1.02] font-semibold tracking-[-0.035em]",
   section: "text-3xl md:text-4xl lg:text-[44px] lg:leading-[1.1] font-medium tracking-[-0.03em]",
-  eyebrow: "text-xs uppercase tracking-[0.12em] text-linear-muted font-medium",
-  body: "text-base md:text-lg text-linear-muted leading-relaxed",
+  eyebrow: "text-xs uppercase tracking-[0.12em] text-brand-muted font-medium",
+  body: "text-base md:text-lg text-brand-muted leading-relaxed",
 } as const;

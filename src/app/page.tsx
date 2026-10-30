@@ -2,18 +2,18 @@ import {
   Navbar,
   Hero,
   StackSection,
-  LinearBody,
+  ProductBody,
   Footer,
 } from "@/components/landing";
 
 export default function HomePage() {
   return (
-    <div className="flex min-h-screen flex-col bg-linear-bg">
+    <div className="flex min-h-screen flex-col bg-brand-bg">
       <Navbar />
       <main>
         <Hero />
         <StackSection />
-        <LinearBody />
+        <ProductBody />
       </main>
       <Footer />
     </div>

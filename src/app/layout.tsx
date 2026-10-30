@@ -10,12 +10,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Linear – The system for product development",
+  title: "Momentum — Product work, without the handoffs",
   description:
-    "Purpose-built for planning and building products. Designed for the AI era.",
-  applicationName: "Linear",
+    "Momentum keeps intake, planning, review and release in one shared context for product teams and AI agents.",
+  applicationName: "Momentum",
+  metadataBase: new URL("https://momentum-product.vercel.app"),
   icons: {
-    icon: [{ url: "/linear/asset-005.png", type: "image/png" }],
+    icon: [{ url: "/brand/momentum-mark.png", type: "image/png" }],
   },
 };
 
@@ -26,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={inter.variable}>
-      <body className="min-h-screen bg-linear-bg font-sans text-linear-text antialiased">
+      <body className="min-h-screen bg-brand-bg font-sans text-brand-text antialiased">
         {children}
       </body>
     </html>

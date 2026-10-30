@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { cn } from "@/lib/cn";
 
-export interface LinearScreenshotProps {
+export interface ProductScreenshotProps {
   src: string;
   alt: string;
   width?: number;
@@ -15,7 +15,7 @@ export interface LinearScreenshotProps {
   unstyled?: boolean;
 }
 
-export function LinearScreenshot({
+export function ProductScreenshot({
   src,
   alt,
   width,
@@ -27,7 +27,7 @@ export function LinearScreenshot({
   sizes = "(max-width: 1436px) 100vw, 1344px",
   variant = "flat",
   unstyled = false,
-}: LinearScreenshotProps) {
+}: ProductScreenshotProps) {
   const useFill = !width || !height;
   const usePanel = !unstyled && variant === "panel";
 
@@ -35,7 +35,7 @@ export function LinearScreenshot({
     <div
       className={cn(
         "relative overflow-hidden",
-        usePanel && "linear-panel rounded-2xl",
+        usePanel && "brand-panel rounded-2xl",
         !usePanel && !unstyled && "rounded-xl",
         className
       )}

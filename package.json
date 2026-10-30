@@ -1,5 +1,5 @@
 {
-  "name": "warpmetal-marketing",
+  "name": "momentum-product",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start -p 3002",
     "lint": "next lint",
-    "extract:linear": "node scripts/extract-linear.mjs",
-    "crop:linear": "node scripts/crop-linear-sections.mjs"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "clsx": "^2.1.1",

@@ -2,7 +2,7 @@ export { Navbar } from "./navbar";
 export { Hero } from "./hero";
 export { LogoMarquee } from "./logo-marquee";
 export { StackSection } from "./stack-section";
-export { LinearBody } from "./linear-body";
+export { ProductBody } from "./product-body";
 export { FeatureIntro } from "./feature-intro";
 export { IntakeSection } from "./intake-section";
 export { PlanningSection } from "./planning-section";

@@ -1,15 +1,15 @@
 "use client";
 
 import { useCallback, useState } from "react";
-import "@/styles/linear-body.css";
-import { linearBodyContent } from "@/lib/linear-body-content";
+import "@/styles/body.css";
+import { bodyContent } from "@/lib/body-content";
 import { IntroSection } from "./intro-section";
 import { FeatureSection } from "./feature-section";
 import { ChangelogSection } from "./changelog-section";
 import { TestimonialsSection } from "./testimonials-section";
 import { ClosingSection } from "./closing-section";
 
-export function LinearBody() {
+export function ProductBody() {
   const [notice, setNotice] = useState("");
 
   const notify = useCallback((message: string) => {
@@ -18,31 +18,31 @@ export function LinearBody() {
   }, []);
 
   return (
-    <div className="linear-body pt-8">
+    <div className="product-body pt-8">
       <IntroSection />
       <FeatureSection
-        title={linearBodyContent.intake.title}
-        copy={linearBodyContent.intake.copy}
+        title={bodyContent.intake.title}
+        copy={bodyContent.intake.copy}
         visual="intake"
-        links={linearBodyContent.intake.links}
+        links={bodyContent.intake.links}
       />
       <FeatureSection
-        title={linearBodyContent.planning.title}
-        copy={linearBodyContent.planning.copy}
+        title={bodyContent.planning.title}
+        copy={bodyContent.planning.copy}
         visual="planning"
-        links={linearBodyContent.planning.links}
+        links={bodyContent.planning.links}
       />
       <FeatureSection
-        title={linearBodyContent.ai.title}
-        copy={linearBodyContent.ai.copy}
+        title={bodyContent.ai.title}
+        copy={bodyContent.ai.copy}
         visual="ai"
-        links={linearBodyContent.ai.links}
+        links={bodyContent.ai.links}
       />
       <FeatureSection
-        title={linearBodyContent.build.title}
-        copy={linearBodyContent.build.copy}
+        title={bodyContent.build.title}
+        copy={bodyContent.build.copy}
         visual="build"
-        links={linearBodyContent.build.links}
+        links={bodyContent.build.links}
       />
       <ChangelogSection />
       <TestimonialsSection />

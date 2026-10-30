@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { Container, MotionSection, Section } from "@/components/linear";
-import { linearTypography } from "@/lib/linear-tokens";
+import { Container, MotionSection, Section } from "@/components/ui";
+import { typography } from "@/lib/tokens";
 import { cn } from "@/lib/cn";
 
 export type FeatureLayoutVariant = "split" | "stacked" | "cards-row";
@@ -20,11 +20,11 @@ function FeatureSectionHeader({
 }) {
   return (
     <div className={cn("max-w-xl", className)}>
-      <h2 className={cn("whitespace-pre-line", linearTypography.section)}>{title}</h2>
-      <p className="mt-5 text-linear-muted md:text-lg">{description}</p>
+      <h2 className={cn("whitespace-pre-line", typography.section)}>{title}</h2>
+      <p className="mt-5 text-brand-muted md:text-lg">{description}</p>
       <Link
         href="#"
-        className="mt-6 inline-flex text-sm text-linear-text transition hover:text-linear-accent"
+        className="mt-6 inline-flex text-sm text-brand-text transition hover:text-brand-accent"
       >
         {cta}
       </Link>
@@ -32,7 +32,7 @@ function FeatureSectionHeader({
         {features.map((feature) => (
           <span
             key={feature}
-            className="rounded-full border border-linear-border px-3 py-1 text-xs text-linear-text-secondary"
+            className="rounded-full border border-brand-border px-3 py-1 text-xs text-brand-text-secondary"
           >
             {feature}
           </span>

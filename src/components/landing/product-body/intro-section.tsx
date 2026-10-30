@@ -1,4 +1,4 @@
-import { linearBodyContent } from "@/lib/linear-body-content";
+import { bodyContent } from "@/lib/body-content";
 
 function PrincipleArt({ type }: { type: "stack" | "blocks" | "stairs" }) {
   if (type === "stack") {
@@ -24,7 +24,7 @@ function PrincipleArt({ type }: { type: "stack" | "blocks" | "stairs" }) {
 }
 
 export function IntroSection() {
-  const { intro } = linearBodyContent;
+  const { intro } = bodyContent;
 
   return (
     <section id="product" className="intro section-wrap">

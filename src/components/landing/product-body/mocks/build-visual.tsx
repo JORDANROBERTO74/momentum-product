@@ -1,4 +1,4 @@
-import { buildSection } from "@/lib/linear-content";
+import { buildSection } from "@/lib/content";
 
 export function BuildVisual() {
   const { reviewColumns, codeDiff } = buildSection;

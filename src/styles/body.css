@@ -1,27 +1,27 @@
-.linear-body {
+.product-body {
   color: #f5f5f5;
   font-size: 14px;
 }
 
-.linear-body a {
+.brand-body a {
   color: inherit;
   text-decoration: none;
   cursor: pointer;
 }
 
-.linear-body button {
+.product-body button {
   font: inherit;
   color: inherit;
   cursor: pointer;
   border: 0;
 }
 
-.linear-body .section-wrap {
+.product-body .section-wrap {
   width: min(1230px, calc(100% - 96px));
   margin-inline: auto;
 }
 
-.linear-body .eyebrow {
+.product-body .eyebrow {
   font-size: 10px;
   color: #626873;
   letter-spacing: 0.14em;
@@ -29,7 +29,7 @@
   margin: 0 0 22px;
 }
 
-.linear-body .text-button {
+.product-body .text-button {
   display: inline-flex;
   align-items: center;
   gap: 9px;
@@ -37,11 +37,11 @@
   background: none;
 }
 
-.linear-body .text-button:hover {
+.product-body .text-button:hover {
   color: white;
 }
 
-.linear-body .primary {
+.product-body .primary {
   background: #f1f1f1;
   color: #121314;
   border-radius: 999px;
@@ -50,12 +50,12 @@
   transition: transform 0.2s, background 0.2s;
 }
 
-.linear-body .primary:hover {
+.product-body .primary:hover {
   transform: translateY(-2px);
   background: white;
 }
 
-.linear-body .secondary {
+.product-body .secondary {
   background: transparent;
   color: #a8adb7;
   border: 1px solid #3a3d43;
@@ -65,13 +65,13 @@
   transition: transform 0.2s, color 0.2s, border-color 0.2s;
 }
 
-.linear-body .secondary:hover {
+.product-body .secondary:hover {
   transform: translateY(-2px);
   color: white;
   border-color: #5a5f68;
 }
 
-.linear-body .closing-actions {
+.product-body .closing-actions {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -79,18 +79,18 @@
   gap: 14px;
 }
 
-.linear-body .closing-actions .primary,
-.linear-body .closing-actions .secondary {
+.product-body .closing-actions .primary,
+.product-body .closing-actions .secondary {
   display: inline-flex;
   align-items: center;
   gap: 8px;
 }
 
-.linear-body .intro {
+.product-body .intro {
   padding: 20px 0 150px;
 }
 
-.linear-body .intro > p {
+.product-body .intro > p {
   font-size: clamp(30px, 4vw, 49px);
   line-height: 1.03;
   letter-spacing: -0.06em;
@@ -98,29 +98,29 @@
   max-width: 1120px;
 }
 
-.linear-body .intro strong {
+.product-body .intro strong {
   color: #f2f2f2;
   font-weight: 500;
 }
 
-.linear-body .principles {
+.product-body .principles {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 128px;
 }
 
-.linear-body .principles article {
+.product-body .principles article {
   padding: 0 30px;
   border-left: 1px solid #222428;
   min-height: 370px;
 }
 
-.linear-body .principles article:first-child {
+.product-body .principles article:first-child {
   padding-left: 0;
   border: 0;
 }
 
-.linear-body .principle-art {
+.product-body .principle-art {
   height: 240px;
   position: relative;
   display: grid;
@@ -129,8 +129,8 @@
   font-size: 45px;
 }
 
-.linear-body .stack-art::before,
-.linear-body .stack-art::after {
+.product-body .stack-art::before,
+.product-body .stack-art::after {
   content: "";
   position: absolute;
   width: 150px;
@@ -140,19 +140,19 @@
   border-radius: 5px;
 }
 
-.linear-body .stack-art::before {
+.product-body .stack-art::before {
   margin-top: 42px;
 }
 
-.linear-body .stack-art::after {
+.product-body .stack-art::after {
   margin-top: -35px;
 }
 
-.linear-body .blocks-art {
+.product-body .blocks-art {
   gap: 8px;
 }
 
-.linear-body .blocks-art i {
+.product-body .blocks-art i {
   display: block;
   width: 72px;
   height: 72px;
@@ -161,20 +161,20 @@
   border-radius: 5px;
 }
 
-.linear-body .blocks-art i:nth-child(2) {
+.product-body .blocks-art i:nth-child(2) {
   margin: 38px 0 0 -28px;
 }
 
-.linear-body .blocks-art i:nth-child(3) {
+.product-body .blocks-art i:nth-child(3) {
   margin: -45px -30px 0 0;
 }
 
-.linear-body .stairs-art {
+.product-body .stairs-art {
   align-items: end;
   padding-bottom: 52px;
 }
 
-.linear-body .stairs-art i {
+.product-body .stairs-art i {
   display: block;
   width: 106px;
   height: 30px;
@@ -183,32 +183,32 @@
   margin-right: -76px;
 }
 
-.linear-body .principles h3 {
+.product-body .principles h3 {
   color: #c9dcff;
   font-size: 14px;
   margin: 0 0 15px;
 }
 
-.linear-body .principles p {
+.product-body .principles p {
   color: #657080;
   line-height: 1.6;
   max-width: 290px;
   margin: 0;
 }
 
-.linear-body .feature {
+.product-body .feature {
   border-top: 1px solid #222428;
   padding: 130px 0 112px;
   min-height: 800px;
 }
 
-.linear-body .feature-head {
+.product-body .feature-head {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 80px;
 }
 
-.linear-body .feature h2 {
+.product-body .feature h2 {
   margin: 0;
   font-size: clamp(42px, 5vw, 62px);
   line-height: 0.98;
@@ -216,34 +216,34 @@
   font-weight: 500;
 }
 
-.linear-body .feature-head > div {
+.product-body .feature-head > div {
   max-width: 540px;
 }
 
-.linear-body .feature-head p {
+.product-body .feature-head p {
   font-size: 20px;
   line-height: 1.35;
   color: #c5d6f2;
   margin: 0 0 38px;
 }
 
-.linear-body .intake-visual,
-.linear-body .planning-visual,
-.linear-body .ai-visual,
-.linear-body .build-visual {
+.product-body .intake-visual,
+.product-body .planning-visual,
+.product-body .ai-visual,
+.product-body .build-visual {
   margin-top: 88px;
   height: 350px;
   position: relative;
 }
 
-.linear-body .ai-visual {
+.product-body .ai-visual {
   display: flex;
   align-items: flex-start;
   height: 380px;
   overflow: hidden;
 }
 
-.linear-body .agent-card {
+.product-body .agent-card {
   flex-shrink: 0;
   width: 300px;
   min-height: 320px;
@@ -257,28 +257,28 @@
   color: #adb2ba;
 }
 
-.linear-body .agent-card.partial {
+.product-body .agent-card.partial {
   width: 220px;
   margin-right: -48px;
   opacity: 0.55;
   z-index: 1;
 }
 
-.linear-body .agent-card.cursor {
+.product-body .agent-card.secondary {
   margin-right: -56px;
   z-index: 2;
 }
 
-.linear-body .agent-card.linear {
+.product-body .agent-card.primary {
   margin-right: -56px;
   z-index: 3;
 }
 
-.linear-body .agent-card.chatprd {
+.product-body .agent-card.spec {
   z-index: 4;
 }
 
-.linear-body .agent-card-head {
+.product-body .agent-card-head {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -287,13 +287,13 @@
   border-bottom: 1px solid #2e3033;
 }
 
-.linear-body .agent-name {
+.product-body .agent-name {
   font-weight: 600;
   color: #e8eaed;
   font-size: 12px;
 }
 
-.linear-body .agent-badge {
+.product-body .agent-badge {
   font-size: 10px;
   color: #8b9099;
   border: 1px solid #3a3d43;
@@ -301,40 +301,40 @@
   padding: 1px 5px;
 }
 
-.linear-body .agent-window-controls {
+.product-body .agent-window-controls {
   margin-left: auto;
   display: flex;
   gap: 5px;
 }
 
-.linear-body .agent-window-controls span {
+.product-body .agent-window-controls span {
   width: 8px;
   height: 8px;
   border-radius: 50%;
   background: #3a3d43;
 }
 
-.linear-body .agent-logo {
+.product-body .agent-logo {
   width: 16px;
   height: 16px;
   border-radius: 50%;
   flex-shrink: 0;
 }
 
-.linear-body .linear-logo {
+.product-body .brand-logo {
   background: linear-gradient(135deg, #ededed 50%, #101112 50%);
 }
 
-.linear-body .cursor-logo {
+.product-body .secondary-logo {
   background: #e8eaed;
   border-radius: 3px;
 }
 
-.linear-body .chatprd-logo {
+.product-body .spec-logo {
   background: #e8a0b8;
 }
 
-.linear-body .agent-prompt {
+.product-body .agent-prompt {
   background: #1a1c1f;
   border: 1px solid #2f3237;
   border-radius: 8px;
@@ -343,28 +343,28 @@
   margin-bottom: 12px;
 }
 
-.linear-body .agent-context {
+.product-body .agent-context {
   color: #8b9099;
   margin: 0 0 8px;
   font-size: 10px;
 }
 
-.linear-body .agent-status {
+.product-body .agent-status {
   color: #9ca3af;
   margin: 0 0 10px;
   font-size: 10px;
 }
 
-.linear-body .agent-status b {
+.product-body .agent-status b {
   color: #d0d4da;
   font-weight: 500;
 }
 
-.linear-body .agent-thinking {
+.product-body .agent-thinking {
   color: #c9dcff;
 }
 
-.linear-body .agent-progress {
+.product-body .agent-progress {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -375,18 +375,18 @@
   font-size: 10px;
 }
 
-.linear-body .agent-issues {
+.product-body .agent-issues {
   margin-top: 8px;
 }
 
-.linear-body .agent-issues b {
+.product-body .agent-issues b {
   display: block;
   color: #8b9099;
   font-size: 10px;
   margin: 10px 0 6px;
 }
 
-.linear-body .agent-issues p {
+.product-body .agent-issues p {
   margin: 0 0 4px;
   font-size: 10px;
   color: #9ca3af;
@@ -395,26 +395,26 @@
   gap: 6px;
 }
 
-.linear-body .issue-dot {
+.product-body .issue-dot {
   width: 6px;
   height: 6px;
   border-radius: 50%;
   flex-shrink: 0;
 }
 
-.linear-body .issue-dot.orange {
+.product-body .issue-dot.orange {
   background: #ed7b32;
 }
 
-.linear-body .issue-dot.yellow {
+.product-body .issue-dot.yellow {
   background: #f6c842;
 }
 
-.linear-body .issue-dot.blue {
+.product-body .issue-dot.blue {
   background: #5e6ad2;
 }
 
-.linear-body .agent-result {
+.product-body .agent-result {
   display: flex;
   align-items: center;
   gap: 6px;
@@ -423,17 +423,17 @@
   margin: 0;
 }
 
-.linear-body .issue-check {
+.product-body .issue-check {
   color: #68cc58;
   font-weight: 600;
 }
 
-.linear-body .build-visual {
+.product-body .build-visual {
   height: 380px;
   overflow: hidden;
 }
 
-.linear-body .build-board {
+.product-body .build-board {
   position: absolute;
   left: 0;
   top: 20px;
@@ -446,7 +446,7 @@
   z-index: 1;
 }
 
-.linear-body .build-column {
+.product-body .build-column {
   border: 1px solid #2a2d31;
   border-radius: 10px;
   background: #121416;
@@ -454,14 +454,14 @@
   min-height: 280px;
 }
 
-.linear-body .build-column-head {
+.product-body .build-column-head {
   font-size: 11px;
   color: #8b9099;
   margin-bottom: 12px;
   font-weight: 500;
 }
 
-.linear-body .build-issue {
+.product-body .build-issue {
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -472,18 +472,18 @@
   background: #16181b;
 }
 
-.linear-body .build-issue-id {
+.product-body .build-issue-id {
   font-size: 10px;
   color: #7a808a;
 }
 
-.linear-body .build-issue-title {
+.product-body .build-issue-title {
   font-size: 10px;
   color: #c8ccd2;
   line-height: 1.35;
 }
 
-.linear-body .build-diff {
+.product-body .build-diff {
   position: absolute;
   right: 0;
   top: 0;
@@ -496,7 +496,7 @@
   overflow: hidden;
 }
 
-.linear-body .build-diff-head {
+.product-body .build-diff-head {
   padding: 12px 16px;
   border-bottom: 1px solid #2e3033;
   font-size: 11px;
@@ -504,36 +504,36 @@
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
-.linear-body .build-diff-body {
+.product-body .build-diff-body {
   padding: 16px;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   font-size: 11px;
   line-height: 1.5;
 }
 
-.linear-body .diff-line {
+.product-body .diff-line {
   margin: 0;
   padding: 10px 12px;
   border-radius: 6px;
   white-space: pre-wrap;
 }
 
-.linear-body .diff-line code {
+.product-body .diff-line code {
   font-family: inherit;
 }
 
-.linear-body .diff-line.removed {
+.product-body .diff-line.removed {
   background: rgba(235, 87, 87, 0.12);
   color: #e8a0a0;
   margin-bottom: 8px;
 }
 
-.linear-body .diff-line.added {
+.product-body .diff-line.added {
   background: rgba(104, 204, 88, 0.12);
   color: #a8d4a0;
 }
 
-.linear-body .thread {
+.product-body .thread {
   position: absolute;
   width: 480px;
   left: 0;
@@ -546,31 +546,31 @@
   box-shadow: 0 22px 50px #000;
 }
 
-.linear-body .thread-head {
+.product-body .thread-head {
   border-bottom: 1px solid #2e3033;
   padding-bottom: 18px;
   display: flex;
   gap: 15px;
 }
 
-.linear-body .thread-head small {
+.product-body .thread-head small {
   color: #767c85;
 }
 
-.linear-body .thread p {
+.product-body .thread p {
   color: #adb2ba;
   line-height: 1.4;
   display: block;
   padding: 10px 0;
 }
 
-.linear-body .thread p svg {
+.product-body .thread p svg {
   float: left;
   margin-right: 10px;
   color: #9ca3af;
 }
 
-.linear-body .thread-input {
+.product-body .thread-input {
   border: 1px solid #2f3237;
   border-radius: 8px;
   padding: 15px;
@@ -578,17 +578,17 @@
   margin-top: 10px;
 }
 
-.linear-body .thread-input span {
+.product-body .thread-input span {
   color: #9d9eff;
 }
 
-.linear-body .thread-input small {
+.product-body .thread-input small {
   display: block;
   color: #696f78;
   padding-top: 28px;
 }
 
-.linear-body .board {
+.product-body .board {
   position: absolute;
   inset: 40px 0 0 300px;
   opacity: 0.55;
@@ -600,29 +600,29 @@
   gap: 12px;
 }
 
-.linear-body .board div {
+.product-body .board div {
   border: 1px solid #25282d;
   border-radius: 8px;
   height: 72px;
 }
 
-.linear-body .feature-links {
+.product-body .feature-links {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: 100px;
   color: #637080;
 }
 
-.linear-body .feature-links > div {
+.product-body .feature-links > div {
   display: grid;
   gap: 11px;
 }
 
-.linear-body .feature-links a {
+.product-body .feature-links a {
   color: #8d9cb0;
 }
 
-.linear-body .timeline {
+.product-body .timeline {
   position: absolute;
   inset: 20px 40% 0 0;
   opacity: 0.65;
@@ -631,17 +631,17 @@
   color: #5d6571;
 }
 
-.linear-body .months {
+.product-body .months {
   font-size: 11px;
 }
 
-.linear-body .grid-line {
+.product-body .grid-line {
   height: 220px;
   border-left: 1px dashed #30343b;
   margin: 10px 0 0 200px;
 }
 
-.linear-body .lane {
+.product-body .lane {
   position: absolute;
   left: 15%;
   right: 4%;
@@ -651,28 +651,28 @@
   font-size: 11px;
 }
 
-.linear-body .lane span {
+.product-body .lane span {
   display: block;
   height: 1px;
   background: #555;
   margin-top: 10px;
 }
 
-.linear-body .lane.one {
+.product-body .lane.one {
   top: 72px;
   color: #81b9d2;
 }
 
-.linear-body .lane.two {
+.product-body .lane.two {
   top: 136px;
   color: #86ba8f;
 }
 
-.linear-body .lane.three {
+.product-body .lane.three {
   top: 228px;
 }
 
-.linear-body .chart {
+.product-body .chart {
   position: absolute;
   left: 46%;
   right: 0;
@@ -686,18 +686,18 @@
   color: #9ea5af;
 }
 
-.linear-body .chart-lines i {
+.product-body .chart-lines i {
   display: block;
   border-top: 1px dashed #30343a;
   margin-top: 40px;
 }
 
-.linear-body .dots {
+.product-body .dots {
   position: absolute;
   inset: 82px 50px 60px;
 }
 
-.linear-body .dots span {
+.product-body .dots span {
   position: absolute;
   width: 5px;
   height: 5px;
@@ -706,7 +706,7 @@
   box-shadow: 0 0 7px #00a9ba;
 }
 
-.linear-body .chart-labels {
+.product-body .chart-labels {
   position: absolute;
   bottom: 24px;
   left: 32px;
@@ -714,12 +714,12 @@
   font-size: 10px;
 }
 
-.linear-body .changelog {
+.product-body .changelog {
   border-top: 1px solid #222428;
   padding: 130px 0 80px;
 }
 
-.linear-body .changelog h2 {
+.product-body .changelog h2 {
   margin: 0 0 48px;
   font-size: clamp(42px, 5vw, 62px);
   line-height: 0.98;
@@ -727,7 +727,7 @@
   font-weight: 500;
 }
 
-.linear-body .changelog-timeline {
+.product-body .changelog-timeline {
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -736,7 +736,7 @@
   padding: 0 8%;
 }
 
-.linear-body .changelog-timeline-line {
+.product-body .changelog-timeline-line {
   position: absolute;
   left: 8%;
   right: 8%;
@@ -746,7 +746,7 @@
   transform: translateY(-50%);
 }
 
-.linear-body .changelog-dot {
+.product-body .changelog-dot {
   position: relative;
   z-index: 1;
   width: 10px;
@@ -756,32 +756,32 @@
   border: 2px solid #08090a;
 }
 
-.linear-body .changelog-dot.active {
+.product-body .changelog-dot.active {
   background: #eb5757;
   box-shadow: 0 0 0 4px rgba(235, 87, 87, 0.15);
 }
 
-.linear-body .changelog-grid {
+.product-body .changelog-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 28px;
 }
 
-.linear-body .changelog-entry h3 {
+.product-body .changelog-entry h3 {
   margin: 0 0 12px;
   font-size: 15px;
   font-weight: 500;
   color: #f2f2f2;
 }
 
-.linear-body .changelog-entry p {
+.product-body .changelog-entry p {
   margin: 0 0 16px;
   font-size: 13px;
   line-height: 1.55;
   color: #8e949e;
 }
 
-.linear-body .changelog-date {
+.product-body .changelog-date {
   display: block;
   font-size: 10px;
   letter-spacing: 0.1em;
@@ -789,28 +789,28 @@
   text-transform: uppercase;
 }
 
-.linear-body .changelog-cta {
+.product-body .changelog-cta {
   display: inline-block;
   margin-top: 20px;
   font-size: 13px;
   color: #8d9cb0;
 }
 
-.linear-body .changelog-cta:hover {
+.product-body .changelog-cta:hover {
   color: #f4f4f4;
 }
 
-.linear-body .testimonials {
+.product-body .testimonials {
   padding: 0 0 100px;
 }
 
-.linear-body .testimonial-grid {
+.product-body .testimonial-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
 }
 
-.linear-body .testimonial-card {
+.product-body .testimonial-card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -819,17 +819,17 @@
   border-radius: 16px;
 }
 
-.linear-body .testimonial-card.lavender {
+.product-body .testimonial-card.lavender {
   background: #c8c4f0;
   color: #1a1a2e;
 }
 
-.linear-body .testimonial-card.yellow {
+.product-body .testimonial-card.yellow {
   background: #f5d547;
   color: #1a1a1a;
 }
 
-.linear-body .testimonial-card blockquote {
+.product-body .testimonial-card blockquote {
   margin: 0;
   font-size: clamp(20px, 2.2vw, 28px);
   line-height: 1.2;
@@ -837,7 +837,7 @@
   font-weight: 500;
 }
 
-.linear-body .testimonial-meta {
+.product-body .testimonial-meta {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -845,18 +845,18 @@
   margin-top: 32px;
 }
 
-.linear-body .testimonial-author {
+.product-body .testimonial-author {
   font-size: 13px;
   font-weight: 600;
 }
 
-.linear-body .testimonial-role {
+.product-body .testimonial-role {
   margin-top: 4px;
   font-size: 12px;
   opacity: 0.7;
 }
 
-.linear-body .testimonial-logo {
+.product-body .testimonial-logo {
   display: grid;
   place-items: center;
   width: 36px;
@@ -867,7 +867,7 @@
   font-weight: 700;
 }
 
-.linear-body .testimonial-footer {
+.product-body .testimonial-footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -877,7 +877,7 @@
   border-top: 1px solid #222428;
 }
 
-.linear-body .social-proof {
+.product-body .social-proof {
   margin: 0;
   max-width: 520px;
   font-size: 13px;
@@ -885,38 +885,38 @@
   color: #8e949e;
 }
 
-.linear-body .social-proof strong {
+.product-body .social-proof strong {
   color: #f2f2f2;
   font-weight: 600;
 }
 
-.linear-body .customer-stories-cta {
+.product-body .customer-stories-cta {
   font-size: 13px;
   color: #8d9cb0;
   white-space: nowrap;
 }
 
-.linear-body .customer-stories-cta:hover {
+.product-body .customer-stories-cta:hover {
   color: #f4f4f4;
 }
 
-.linear-body .closing {
+.product-body .closing {
   padding: 160px 0;
   text-align: center;
 }
 
-.linear-body .closing h2 {
+.product-body .closing h2 {
   font-size: clamp(48px, 7vw, 88px);
   line-height: 0.95;
   letter-spacing: -0.07em;
   margin: 0 0 40px;
 }
 
-.linear-body .closing h2 span {
+.product-body .closing h2 span {
   color: #77818f;
 }
 
-.linear-body .toast {
+.product-body .toast {
   position: fixed;
   bottom: 25px;
   left: 50%;
@@ -930,121 +930,121 @@
 }
 
 @media (max-width: 800px) {
-  .linear-body .section-wrap {
+  .product-body .section-wrap {
     width: min(100% - 40px, 620px);
   }
 
-  .linear-body .principles,
-  .linear-body .feature-head {
+  .product-body .principles,
+  .product-body .feature-head {
     grid-template-columns: 1fr;
     gap: 45px;
   }
 
-  .linear-body .intro {
+  .product-body .intro {
     padding-bottom: 90px;
   }
 
-  .linear-body .principles {
+  .product-body .principles {
     margin-top: 60px;
   }
 
-  .linear-body .principles article {
+  .product-body .principles article {
     padding: 35px 0 0;
     border-left: 0;
     border-top: 1px solid #222428;
   }
 
-  .linear-body .feature {
+  .product-body .feature {
     padding: 85px 0;
   }
 
-  .linear-body .feature-head p {
+  .product-body .feature-head p {
     font-size: 18px;
   }
 
-  .linear-body .intake-visual,
-  .linear-body .planning-visual,
-  .linear-body .ai-visual,
-  .linear-body .build-visual {
+  .product-body .intake-visual,
+  .product-body .planning-visual,
+  .product-body .ai-visual,
+  .product-body .build-visual {
     height: 300px;
     margin-top: 55px;
     overflow: hidden;
   }
 
-  .linear-body .ai-visual {
+  .product-body .ai-visual {
     transform: scale(0.78);
     transform-origin: left top;
     width: 128%;
   }
 
-  .linear-body .build-visual {
+  .product-body .build-visual {
     transform: scale(0.82);
     transform-origin: left top;
     width: 122%;
   }
 
-  .linear-body .build-diff {
+  .product-body .build-diff {
     width: 72%;
   }
 
-  .linear-body .thread {
+  .product-body .thread {
     width: 92%;
   }
 
-  .linear-body .board {
+  .product-body .board {
     left: 24%;
   }
 
-  .linear-body .timeline {
+  .product-body .timeline {
     inset: 20px 5% 0 0;
     transform: scale(0.72);
     transform-origin: left top;
     width: 125%;
   }
 
-  .linear-body .chart {
+  .product-body .chart {
     left: 20%;
     top: 75px;
     width: 115%;
   }
 
-  .linear-body .feature-links {
+  .product-body .feature-links {
     margin-top: 60px;
     grid-template-columns: 1fr 1fr;
     gap: 25px;
   }
 
-  .linear-body .feature-links > span {
+  .product-body .feature-links > span {
     grid-column: span 2;
   }
 
-  .linear-body .closing {
+  .product-body .closing {
     padding: 100px 0;
   }
 
-  .linear-body .changelog {
+  .product-body .changelog {
     padding: 85px 0 60px;
   }
 
-  .linear-body .changelog-grid {
+  .product-body .changelog-grid {
     grid-template-columns: 1fr;
     gap: 36px;
   }
 
-  .linear-body .changelog-timeline {
+  .product-body .changelog-timeline {
     display: none;
   }
 
-  .linear-body .testimonial-grid {
+  .product-body .testimonial-grid {
     grid-template-columns: 1fr;
   }
 
-  .linear-body .testimonial-card {
+  .product-body .testimonial-card {
     min-height: 220px;
     padding: 28px;
   }
 
-  .linear-body .testimonial-footer {
+  .product-body .testimonial-footer {
     flex-direction: column;
     align-items: flex-start;
   }

@@ -1,12 +1,12 @@
-import { linearAssets } from "./linear-assets";
+import { assets } from "./assets";
 
 export const navLinks = {
   primary: [
     { label: "Product", href: "#product" },
-    { label: "Resources", href: "#features" },
+    { label: "Solutions", href: "#features" },
     { label: "Customers", href: "#product" },
     { label: "Pricing", href: "#pricing" },
-    { label: "New", href: "#" },
+    { label: "Resources", href: "#features" },
     { label: "Contact", href: "#contact" },
   ],
   actions: [
@@ -16,40 +16,40 @@ export const navLinks = {
 };
 
 export const hero = {
-  badge: { label: "New", text: "Loops" },
-  headline: "The product development system for teams and agents",
+  badge: { label: "New", text: "Agent sessions" },
+  headline: "Product work, without the handoffs.",
   subheadline:
-    "Purpose-built for planning and building products. Designed for the AI era.",
-  previewImage: "/linear/asset-001.png",
+    "Momentum keeps intake, planning, review and release in one shared context for teams and agents.",
+  previewImage: "/media/asset-001.png",
 };
 
 export const logoCloud = {
-  caption: "Powering the companies building the future",
-  logos: linearAssets.logos,
+  caption: "Teams building with Momentum",
+  logos: assets.logos,
 };
 
 export const featureIntro = {
-  title: "A new species of product tool.",
+  title: "One place for the work.",
   subtitle:
-    "Purpose-built for modern teams with AI workflows at its core, Linear sets a new standard for planning and building products.",
+    "Momentum connects the moments where product work usually gets lost: intake, prioritisation, review and release.",
   features: [
     {
-      title: "Foundation",
+      title: "Shared context",
       description:
-        "Linear is shaped by the practices and principles that distinguish world-class product teams from the rest.",
-      image: linearAssets.featureIntro[0],
+        "Decisions, documents and issues stay connected to the work they belong to.",
+      image: assets.featureIntro[0],
     },
     {
-      title: "Intelligent sync",
+      title: "Agent-ready",
       description:
-        "Linear keeps everyone aligned and working in real-time. No matter when or where team members log in.",
-      image: linearAssets.featureIntro[1],
+        "Agents pick up scoped work with the same context as the people around them.",
+      image: assets.featureIntro[1],
     },
     {
-      title: "Global control",
+      title: "Built for speed",
       description:
-        "Command menus, keyboard shortcuts, and automations keep you in the flow and doing your best work.",
-      image: linearAssets.featureIntro[2],
+        "Keyboard-first flows and quiet defaults keep the team moving without noise.",
+      image: assets.featureIntro[2],
     },
   ],
 };
@@ -61,17 +61,17 @@ export const intakeSection = {
     "Move fast without losing the human touch or visibility into progress. Automatically turn conversations and customer feedback into actionable issues.",
   cta: "Learn more →",
   features: [
-    "Linear Agent +",
+    "Momentum Inbox +",
     "Customer Requests +",
     "Triage +",
-    "Linear Asks +",
+    "Routing +",
   ],
   slackThread: [
     { user: "didier", text: "Has anyone been looking into the iOS startup performance issues?" },
     { user: "lena", text: "Anyone else noticing the iOS app feels slow to open if you haven't used it in a bit?" },
-    { user: "didier", text: "Yea, we're still blocking initial render on a full vehicle_state sync every time…" },
+    { user: "didier", text: "Yea, we're still waiting for every panel before rendering the workspace every time…" },
     { user: "andreas", text: "Feels like we could render sooner and load the rest in the background. Probably also worth tracking startup timing so we know how often this happens!" },
-    { user: "andreas", text: "@Linear create issues and assign to me", highlight: true },
+    { user: "andreas", text: "@Momentum create issues and assign to me", highlight: true },
   ],
   columns: [
     {
@@ -90,7 +90,7 @@ export const intakeSection = {
       issues: [
         { id: "ENG-926", title: "Remove UI inconsistencies", labels: ["Bug", "Design"] },
         { id: "ENG-2088", title: "TypeError: Cannot read properties", labels: ["Bug"] },
-        { id: "ENG-924", title: "Upgrade to Claude Opus 5", labels: ["AI"] },
+        { id: "ENG-924", title: "Upgrade the agent model", labels: ["AI"] },
         { id: "ENG-1882", title: "Optimize load times", labels: ["Performance"] },
       ],
     },
@@ -130,10 +130,10 @@ export const planningSection = {
     "Insights +",
   ],
   initiatives: [
-    { name: "UI Refresh", start: "MAR", end: "JUN" },
-    { name: "Split fares", start: "APR", end: "AUG", sub: ["Internal", "Public Beta"] },
-    { name: "Autonomy status clarity", start: "MAY", end: "SEP", sub: ["Alpha"] },
-    { name: "Autonomy telemetry reliability", start: "JUN", end: "OCT", sub: ["Beta", "GA"] },
+    { name: "Onboarding refresh", start: "MAR", end: "JUN" },
+    { name: "Shared planning", start: "APR", end: "AUG", sub: ["Internal", "Public Beta"] },
+    { name: "Agent review queue", start: "MAY", end: "SEP", sub: ["Alpha"] },
+    { name: "Release automation", start: "JUN", end: "OCT", sub: ["Beta", "GA"] },
   ],
 };
 
@@ -144,26 +144,26 @@ export const aiSection = {
     "Built for speed. Programmatic flows, AI automation and high quality defaults that make you move faster.",
   cta: "Learn more →",
   features: [
-    "Linear Agent +",
-    "Coding sessions +",
+    "Momentum Agent +",
+    "Agent sessions +",
     "Triage +",
-    "Linear MCP +",
+    "Automations +",
   ],
   chats: [
     {
       user: "You",
       prompt: "what are the three most important customer requests around permissions? add them to the Access Controls project",
-      agent: "Linear Opus 5",
+      agent: "Momentum Agent",
       response: "Three issues ranked by customer impact:\nENG-2298 Add granular project permissions\nENG-2647 Let guests access multiple teams\nENG-2352 Create custom roles with scoped access\nI've added them to Access Controls",
       duration: "Worked for 8 sec",
     },
     {
-      user: "Cursor",
+      user: "Studio",
       prompt: "add retry handling for failed image uploads described in this issue",
       context: "ENG-2844 added to context",
     },
     {
-      user: "ChatPRD",
+      user: "Spec",
       prompt: "review this issue, draft complete offline mode requirements, and break the work into sub-issues",
       context: "ENG-2521 added to context",
       duration: "Worked for 1 min",
@@ -200,21 +200,21 @@ export const buildSection = {
       name: "In Progress",
       count: 4,
       issues: [
-        { id: "ENG-2076", title: "Reduce ETA jitter", pr: "#55423", labels: ["Performance", "Working…", "Oct 6"] },
-        { id: "ENG-2108", title: "Handle GPS dropouts gracefully", pr: "#55409", labels: ["Maps", "Working…", "Oct 2"] },
+        { id: "ENG-2076", title: "Reduce queue jitter", pr: "#55423", labels: ["Performance", "Working…", "Oct 6"] },
+        { id: "ENG-2108", title: "Handle offline drafts gracefully", pr: "#55409", labels: ["Sync", "Working…", "Oct 2"] },
       ],
     },
     {
       name: "Todo",
       count: 4,
       issues: [
-        { id: "ENG-2254", title: "Reduce unnecessary map re-rendering on home screen", labels: ["Maps", "Oct 10"] },
-        { id: "ENG-2291", title: "Clean up deprecated APIs used by the rider app", labels: ["API", "Oct 9"] },
+        { id: "ENG-2254", title: "Reduce unnecessary list re-rendering on the home screen", labels: ["Web", "Oct 10"] },
+        { id: "ENG-2291", title: "Clean up deprecated APIs used by the mobile app", labels: ["API", "Oct 9"] },
       ],
     },
   ],
   codeDiff: {
-    file: "kinetic-ios/src/screens/Home/HomeScreen.tsx",
+    file: "momentum-app/src/screens/Home/HomeScreen.tsx",
     before: `if (!isFullySynced) {
   return <ActivityIndicator size="large" />
 }`,
@@ -231,26 +231,26 @@ export const changelog = {
     {
       title: "Coding sessions",
       description:
-        "Linear Agent can now set up, run, and test your code before returning its work. That means fewer handoffs and changes that are further along when they come back to you.",
-      image: linearAssets.changelog[0],
+        "Momentum Agent can now set up, run, and test your code before returning its work. That means fewer handoffs and changes that are further along when they come back to you.",
+      image: assets.changelog[0],
     },
     {
       title: "Team initiatives",
       description:
-        "Initiatives are Linear's way to manage product strategy and high-level planning across projects. You can now assign a team to lead an initiative.",
-      image: linearAssets.changelog[1],
+        "Initiatives are Momentum's way to manage product strategy and high-level planning across projects. You can now assign a team to lead an initiative.",
+      image: assets.changelog[1],
     },
     {
       title: "Coding sessions on mobile",
       description:
-        "Your coding session doesn't have to stop when you leave your desk. Use the Linear mobile app to review code changes.",
-      image: linearAssets.changelog[2],
+        "Your coding session doesn't have to stop when you leave your desk. Use the Momentum mobile app to review code changes.",
+      image: assets.changelog[2],
     },
     {
       title: "Agent-assisted text editing",
       description:
         "Documents and project descriptions are critical context for your teams and agents.",
-      image: linearAssets.changelog[3],
+      image: assets.changelog[3],
     },
   ],
 };
@@ -258,24 +258,24 @@ export const changelog = {
 export const testimonials = [
   {
     quote:
-      "Linear is excellent, just excellent. It has the right opinions for fast moving teams. It helps us cut through the noise and focus on building.",
-    author: "Jack Dorsey",
-    role: "Block",
+      "Momentum gives our team one place to decide, build and ship. The agents feel like another teammate, not another tool.",
+    author: "Elena Márquez",
+    role: "Head of Product, Northline",
     variant: "lavender" as const,
-    logo: linearAssets.testimonialLogos[0],
+    logo: assets.testimonialLogos[0],
   },
   {
     quote:
-      "You'll probably build a better product, just because of the craft that using Linear infuses on your brain.",
-    author: "Gabriel Peal",
-    role: "Staff Software Engineer, OpenAI",
+      "We stopped chasing status. The work, the context and the review all live in the same place.",
+    author: "Tomás Ferreira",
+    role: "Engineering Lead, Arco Labs",
     variant: "yellow" as const,
-    logo: linearAssets.testimonialLogos[1],
+    logo: assets.testimonialLogos[1],
   },
 ];
 
 export const finalCta = {
-  title: "Built for the future. Available today.",
+  title: "Built for teams that ship.",
   actions: [
     { label: "Start now", href: "#", primary: true },
     { label: "Contact sales", href: "#", primary: false },
@@ -311,7 +311,7 @@ export const footer = {
     },
     {
       title: "Connect",
-      links: ["Contact us", "Community", "X (Twitter)", "GitHub", "YouTube"],
+      links: ["Contact us", "Community", "Updates", "Documentation"],
     },
     {
       title: "Legal",
@@ -322,23 +322,23 @@ export const footer = {
 };
 
 export const heroIssue = {
-  id: "DRV-8852",
-  title: "Faster app launch",
+  id: "MOM-8852",
+  title: "Faster workspace load",
   progress: "1 / 84",
   description:
-    "Render UI before `vehicle_state` sync when minimum required state is present, instead of blocking on full refresh during iOS startup.",
+    "Render the workspace before the full activity sync when the minimum state is available, instead of blocking on a complete refresh.",
   activity: [
-    { actor: "Linear", text: "created the issue via Slack on behalf of Karri", time: "2min ago" },
-    { actor: "Triage Intelligence", text: "added the labels Performance and iOS", time: "2min ago" },
-    { actor: "karri", text: "Right now we show a spinner forever, which makes it look like the car disappeared...", time: "4 min ago" },
-    { actor: "jori", text: "@Linear can you take a stab at this?", time: "just now" },
-    { actor: "Linear", text: "Changed 2 files · Draft PR awaiting your review", time: "2 min ago" },
+    { actor: "Momentum", text: "created the issue from a customer request", time: "2min ago" },
+    { actor: "Triage Intelligence", text: "added the labels Performance and Web", time: "2min ago" },
+    { actor: "maya", text: "We show a spinner until every panel is ready, which makes the workspace feel slower than it is.", time: "4 min ago" },
+    { actor: "jori", text: "@Momentum can you take a stab at this?", time: "just now" },
+    { actor: "Momentum", text: "Changed 2 files · Draft PR awaiting your review", time: "2 min ago" },
   ],
   properties: {
     status: "In Progress",
     priority: "Medium",
-    assignee: "Karri",
-    cycle: "Cycle 144",
-    labels: ["Performance", "iOS"],
+    assignee: "Maya",
+    cycle: "Cycle 12",
+    labels: ["Performance", "Web"],
   },
 };
